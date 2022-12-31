@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LevelSeekBar">
+        <attr name="bubble_default_icon" format="reference|color"/>
+        <attr name="bubble_default_icon_width" format="dimension"/>
+        <attr name="bubble_default_icon_height" format="dimension"/>
+        <attr name="bubble_icon" format="reference|color"/>
+        <attr name="bubble_icon_width" format="dimension"/>
+        <attr name="bubble_icon_height" format="dimension"/>
+        <attr name="bubble_textColor" format="color"/>
+        <attr name="show_bubble_default_icon" format="boolean"/>
+        <attr name="show_bubble_icon" format="boolean"/>
+        <attr name="show_bubble_icon_anim" format="boolean"/>
+        <attr name="level_default_icon" format="reference|color"/>
+        <attr name="level_default_icon_width" format="dimension"/>
+        <attr name="level_default_icon_height" format="dimension"/>
+        <attr name="level_icon" format="reference|color"/>
+        <attr name="level_icon_width" format="dimension"/>
+        <attr name="level_icon_height" format="dimension"/>
+        <attr name="level_textColor" format="color"/>
+        <attr name="show_level_default_icon" format="boolean"/>
+        <attr name="show_level_icon" format="boolean"/>
+        <attr name="show_level_icon_anim" format="boolean"/>
+        <attr name="level_number" format="integer"/>
+        <attr name="level_progress" format="integer"/>
+        <attr name="level_progress_max" format="integer"/>
+        <attr name="level_progress_height" format="dimension"/>
+        <attr name="level_progressDrawable" format="reference|color"/>
+        <attr name="level_progressCornerRadius" format="dimension" />
+        <attr name="show_level_progress_anim" format="boolean"/>
+        <attr name="level_progressBackground" format="reference|color" />
+        <attr name="level_progressBackground_height" format="dimension" />
+        <attr name="level_progressBackgroundCornerRadius" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.yangsion.levelseekbar.LevelSeekBar
+        android:id="@+id/levelSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:bubble_default_icon="@drawable/ic_bubble_defualt"
+        app:bubble_default_icon_height="50dp"
+        app:bubble_default_icon_width="50dp"
+        app:bubble_icon="@drawable/ic_bubble"
+        app:bubble_icon_height="50dp"
+        app:bubble_icon_width="50dp"
+        app:bubble_textColor="@color/black2"
+        app:level_default_icon="@drawable/ic_level_default"
+        app:level_default_icon_height="50dp"
+        app:level_default_icon_width="50dp"
+        app:level_icon="@drawable/ic_level"
+        app:level_icon_height="50dp"
+        app:level_icon_width="50dp"
+        app:level_number="5"
+        app:level_progress_max="100"
+        app:level_progress="50"
+        app:level_progressBackground="@drawable/bg_progress_background"
+        app:level_progressBackground_height="15dp"
+        app:level_progressDrawable="@drawable/ic_progress"
+        app:level_progress_height="15dp"
+        app:level_textColor="@color/black3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
